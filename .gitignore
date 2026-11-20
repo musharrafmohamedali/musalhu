@@ -1,0 +1,44 @@
+# --- Large media: GitHub rejects files over 100 MB ---
+# Keep audio, video and archives in their own folders (e.g. QO), not here.
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.rar
+*.7z
+
+# --- Ableton ---
+*.asd
+Backup/
+
+# --- Revit backups ---
+*.[0-9][0-9][0-9][0-9].rvt
+*.[0-9][0-9][0-9][0-9].rfa
+*_backup/
+
+# --- AutoCAD / Civil 3D temp and backup files ---
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+*.ac$
+plot.log
+
+# --- Office temp files ---
+~$*
+
+# --- Copyrighted standards and reference books (keep locally only) ---
+_private/
+
+# --- System files ---
+Thumbs.db
+desktop.ini
+.DS_Store
